@@ -81,8 +81,7 @@ select @x;
   drop procedure if exists total_business_by_store;
 
   delimiter $$
-  create procedure total_business_by_store(IN p_store_id int,OUT total_sales float,
-										  out p_label varchar(30))
+  create procedure total_business_by_store(IN p_store_id int,OUT total_sales float,out p_label varchar(30))
   Begin
   select sum(amount) into total_sales
   from inventory i
