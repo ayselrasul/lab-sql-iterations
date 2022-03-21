@@ -105,16 +105,3 @@ select @x,@y;
 Call total_business_by_store (2,@x,@y);
 select @x,@y;
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
